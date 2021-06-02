@@ -1,0 +1,9 @@
+def odd_nums(num):
+    for num in range(1, num + 1, 2):
+        yield num
+
+for i in odd_nums(15):
+    print(i)
+
+n = int(input())
+#print(*[num for num in range(1, n + 1, 2)])
